@@ -5,9 +5,9 @@ public class Main {
     }
 
     public static void findNumb(){
-        String stringa = "Chiara";
-        int result = stringa.codePointAt(4);
-        System.out.println("Il carattere in unicode n° 4 è :" + " " + result);
+        StringBuilder str = new StringBuilder("Chiara");
+        int result = str.codePointAt(4);
+        System.out.println("Il carattere in unicode n° 4 è " + result);
     }
 
 
